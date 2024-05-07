@@ -1,0 +1,76 @@
+/* RegistrationForm.css */
+
+/* General styling */
+form {
+    background-color: #fff;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="mobile"],
+select,
+textarea {
+    width: calc(100% - 18px); /* Adjust width to fit within form padding */
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: darkgreen;
+}
+
+/* Specific styling for certain elements */
+label[for="birthday"],
+label[for="qualification"],
+label[for="email"] {
+    display: block;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Set minimum height */
+}
+
+.center {
+    text-align: center;
+}

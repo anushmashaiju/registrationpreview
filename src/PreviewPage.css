@@ -1,0 +1,49 @@
+/* src/PreviewPage.css */
+
+.preview-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.preview-data {
+    display: flex;
+}
+.input-data {
+    flex: 1;
+    padding-right: 20px; /* Add space between input data and photo */
+  }
+.preview-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.preview-item label {
+    font-weight: bold;
+    width: 150px;
+}
+
+.preview-item span {
+    margin-left: 20px;
+}
+
+h2 {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.preview-photo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.preview-photo img {
+    max-width: 50%;
+    max-height: 50%;
+}
